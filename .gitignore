@@ -30,3 +30,66 @@
 *.exe
 *.out
 *.app
+
+# CMake build files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+# Build directories
+build/
+Build/
+DEBUG/
+RELEASE/
+
+# Project-specific executables
+bin/
+OPShapeSimilarity
+OP_SS
+OP_MRMS
+OP_WRMOL2
+OP_ALIGN
+OP_MI
+
+# Log files
+*.log
+build*.log
+
+# Temporary files
+*~
+*.tmp
+*.temp
+*.swp
+*.swo
+*#
+
+# IDE files
+.vscode/
+.idea/
+*.code-workspace
+*.pro.user*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Molecular data files (if temporary)
+*.mol2.tmp
+*.pdb.tmp
+result_*.mol2
+temp_*.mol2
+
+# MkDocs build
+site/
